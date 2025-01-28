@@ -4,6 +4,9 @@ The overall goal is to standardize digital pathology workflows (QC, slide proces
 process less error-prone, more resource-efficient and greatly accelerate the speed at which research projects can be conducted. The code inside the organization will be only
 accessible by LUMC researchers invited by one of the moderators. Of course, some repositories are more suitable for public use, such as the [PathBench-MIL](https://github.com/Sbrussee/PathBench-MIL) framework.
 
+## Gaining access
+Access is possible for those working in or together with digital pathology research projects conducted at the LUMC department of Pathology. Please contact one of the moderators for more information.
+
 Below are some of the goals of the repositories inside the organization, aimed to accelerate and standardize our digital pathology research:
 
 ### Modular digital pathology pipelines
@@ -12,9 +15,10 @@ Often these modules will take the form as forks from an existing repository, opt
 All of these repositories will have their own environment to mitigate package conflicts and each of them should be callable as modules from an overall pipeline workflow. The overall goal of this approach
 is to reduce the time required for these common steps and allow researchers to spend more time on their project-specifics and data engineering/management.
 
-### Helpful scripts for data management
-In our department, we are moving towards increasing data standardization and ensuring FAIR-standards for our digital pathology datasets + annotations. Scripts that aid in this effort (annotation file creation, data type conversion, metadata
-creation, SlideScore interoperability), can be shared inside this organization to aid in the standardization process. 
+### Scripts and standards for data mangement.
+In our department, we are moving towards increasing data standardization and ensuring FAIR-standards for our digital pathology datasets + annotations. 
+Scripts that aid in this effort (annotation file creation, data type conversion, metadata
+creation, SlideScore interoperability), can be shared inside this organization to aid in the standardization process. Furthermore, the data standards we are setting up will also be shared in this organization, to be easily viewable and accessible for digital pathology researchers in our department.
 
 ### Annotation pipelines
 In our effort for standardization, we provide some repositories or workflows which can be used for generating annotations (e.g. QuPath, ASAP, NuClick, etc.) and how these annotations can be effectively translated into useable data for
