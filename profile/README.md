@@ -1,35 +1,82 @@
-# Leiden University Medical Center: PathAI organization
-This organization aims to promote collaboration and sharing of code across all digital pathology projects conducted at the Leiden University Medical Center.
-The overall goal is to standardize digital pathology workflows (QC, slide processing) and downstream tasks (MIL, segmentation, GNNs) which will make the 
-process less error-prone, more resource-efficient and greatly accelerate the speed at which research projects can be conducted. The code inside the organization will be only
-accessible by LUMC researchers invited by one of the moderators. Of course, some repositories are more suitable for public use, such as the [PathBench-MIL](https://github.com/Sbrussee/PathBench-MIL) framework.
+# **Leiden University Medical Center: PathAI Organization**
 
-## Gaining access
-Access is possible for those working in or together with digital pathology research projects conducted at the LUMC department of Pathology. Please contact one of the moderators for more information.
+## **Mission**
+The **PathAI organization** aims to foster collaboration and streamline code-sharing across all digital pathology projects conducted at the **Leiden University Medical Center (LUMC)**. Our overarching goal is to **standardize digital pathology workflows**, from **quality control (QC) and slide processing** to downstream tasks like **multiple instance learning (MIL), segmentation, and graph neural networks (GNNs)**. 
 
-Below are some of the goals of the repositories inside the organization, aimed to accelerate and standardize our digital pathology research:
+Standardization enhances **efficiency, reduces errors, and accelerates research** by ensuring reproducibility and resource optimization. Access to the organization is restricted to **LUMC researchers**, who can be invited by one of the moderators. However, select repositories, such as **[PathBench-MIL](https://github.com/Sbrussee/PathBench-MIL)**, will be publicly available.
 
-### Modular digital pathology pipelines
-The goal is to provide small-scale repositories which fulfill the needs of certain parts of the common PathAI workflow (e.g. QC, tissue detection, slide processing, normalization, cell segmentation).
-Often these modules will take the form as forks from an existing repository, optionally modified for our use cases. We will also provide examples of an overall pipeline script which calls these modules.
-All of these repositories will have their own environment to mitigate package conflicts and each of them should be callable as modules from an overall pipeline workflow. The overall goal of this approach
-is to reduce the time required for these common steps and allow researchers to spend more time on their project-specifics and data engineering/management.
+---
 
-### Scripts and standards for data mangement.
-In our department, we are moving towards increasing data standardization and ensuring FAIR-standards for our digital pathology datasets + annotations. 
-Scripts that aid in this effort (annotation file creation, data type conversion, metadata
-creation, SlideScore interoperability), can be shared inside this organization to aid in the standardization process. Furthermore, the data standards we are setting up will also be shared in this organization, to be easily viewable and accessible for digital pathology researchers in our department.
+## **Ongoing Computational Pathology Research**
+### **Cutaneous Lymphomas Team**
+- **Deep Learning–Based Classification of Early-Stage Mycosis Fungoides and Benign Inflammatory Dermatoses**
+  - [Study](https://www.sciencedirect.com/science/article/pii/S0022202X24021018)
+  - [Code](https://github.com/Sbrussee/MF_BID_MIL)
+- **PathBench-MIL: A Comprehensive, Flexible Benchmarking / AutoML Framework for Multiple Instance Learning in Histopathology**
+  - [Code](https://github.com/Sbrussee/PathBench-MIL)
 
-### Annotation pipelines
-In our effort for standardization, we provide some repositories or workflows which can be used for generating annotations (e.g. QuPath, ASAP, NuClick, etc.) and how these annotations can be effectively translated into useable data for
-model training. 
+### **Endometrial Cancer Team**
+- **HECTOR: Multimodal Deep Learning to Predict Distant Recurrence-Free Probability from Digitized H&E Tumor Slides and Tumor Stage**
+  - [Study](https://www.nature.com/articles/s41591-024-02993-w)
+  - [Code](https://github.com/AIRMEC/HECTOR)
+- **Im4Mec: Interpretable Deep Learning Model to Predict the Molecular Classification of Endometrial Cancer**
+  - [Study](https://www.sciencedirect.com/science/article/pii/S2589750022002102?via%3Dihub)
+  - [Code](https://github.com/AIRMEC/im4MEC)
 
-### Visualization and clinical implementation
-For eventual translation from our research efforts to clinical implementation and into clinical research projects, effective slide visualization with AI-overlays and integration with (soon-to-be-used) slide visualization software is required.
-Scripts for this purpose can also be shared inside this organization.
+### **Lung / Salivary Gland Cancers Team**
+🚧 *To be announced!*
 
-### Collaboration and knowledge sharing
-Last but not least, we want to emphasize how this organization can be used to aid (starting) digital pathology researchers in their efforts, by using the discussion functionality of the organization. This will help to retain knowledge of
-more senior researchers and will help starting researchers accumulate digital pathology knowledge. We can also point to existing resources for this.
+### **Kidney Team**
+🚧 *To be announced!*
+
+### **Bone / Soft Tissue Team**
+🚧 *To be announced!*
+
+---
+
+## **Practicalities**
+### **Gaining Access**
+Access is available to researchers **working in or collaborating with LUMC’s digital pathology research projects**. Please contact a moderator for more information.
 
 
+### **Goals of the PathAI Organization**
+Our repositories aim to **accelerate and standardize digital pathology research** through the following key objectives:
+
+#### **1. Modular Digital Pathology Pipelines**
+We provide **small-scale repositories** that fulfill specific needs within the **PathAI workflow** (e.g., **QC, tissue detection, slide processing, normalization, and cell segmentation**). These modules may be **forks of existing repositories** or modified for LUMC’s use cases.
+
+Each module:
+- Has its **own dedicated environment** to avoid package conflicts.
+- Contributes to a **standardized workflow**, reducing redundant work and allowing researchers to focus on **data engineering and project-specific challenges**.
+
+
+#### **2. Scripts & Standards for Data Management**
+LUMC’s **digital pathology department** is moving towards **FAIR-compliant (Findable, Accessible, Interoperable, and Reusable) data standards**. The PathAI organization will host:
+- Scripts for **annotation file creation, data conversion, metadata generation, and SlideScore interoperability**.
+- Clearly documented **data standardization guidelines**.
+- Tools to **ensure consistency in dataset structure and annotation formats**.
+
+
+#### **3. Annotation Pipelines**
+We provide workflows for **generating and processing annotations** from tools like **QuPath, ASAP, and NuClick**. These repositories will include:
+- Scripts to convert **raw annotations into model-ready formats**.
+- Best practices for **annotation standardization**.
+- Examples of how annotations can be **efficiently used in AI pipelines**.
+
+
+#### **4. Visualization & Clinical Implementation**
+For translation from research to **clinical practice**, PathAI will support:
+- **AI-overlay visualization scripts** for **WSI viewers**.
+- Integration tools for **slide visualization software**.
+- Methods for **clinical validation and interpretability** of AI models.
+
+
+#### **5. Collaboration & Knowledge Sharing**
+A central goal of this organization is to **foster knowledge sharing**. We encourage:
+- Active use of the **discussion feature** in repositories to retain expertise from **senior researchers** and provide guidance to **newcomers**.
+- Consolidation of **best practices** in digital pathology.
+- Open sharing of **educational resources** for researchers entering this field.
+
+---
+
+By organizing our digital pathology efforts within PathAI, we aim to create a **more structured, efficient, and collaborative environment** that accelerates the development and implementation of AI in pathology research. 🚀
